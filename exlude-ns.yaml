@@ -5,5 +5,5 @@ metadata:
   namespace: "gatekeeper-system"
 spec:
   match:
-    - excludedNamespaces: ["kube-*", "vmware-*", "tanzu-*", "istio-*", "argocd", "gatekeeper-system", "hce"]
+    - excludedNamespaces: ["kube-*", "vmware-*", "tanzu-*", "istio-*", "argocd", "gatekeeper-system", "hce", "prometheus"]
       processes: ["*"]
